@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace modul4_1302203114
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            SimpleDataBase<double> DB = new SimpleDataBase<double>();
+            DB.addNewData(12);
+            DB.addNewData(44);
+            DB.addNewData(43);
+            DB.PrintAlldata();
+           
         }
     }
+    
 }
