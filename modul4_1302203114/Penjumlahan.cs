@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace modul4_1302203114
 {
-    internal class Penjumlahan
-    {
-    }
+    internal class Penjumlahan<T> where T : IComparable<T>
+	{
+
+		public T JumlahTigaAngka(T x, T y, T z)
+	{
+		dynamic temp = x;
+
+		temp += y;
+		temp += z;
+
+		return temp;
+	}
+
 }
+
+
+    }
+

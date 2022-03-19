@@ -15,8 +15,23 @@ namespace modul4_1302203114
             DB.addNewData(44);
             DB.addNewData(43);
             DB.PrintAlldata();
-           
+
+            Penjumlahan<double> penjumlahan = new Penjumlahan<double>();
+            double result = penjumlahan.JumlahTigaAngka(13, 02, 20);
+
+            Console.WriteLine(result);
+
+        }
+
+        //static void Main(string[] args)
+        //{
+          
+
+           // Penjumlahan<double> penjumlahan = new Penjumlahan<double>();
+           // double result = penjumlahan.JumlahTigaAngka(13, 02, 20);
+        //
+           // Console.WriteLine(result);
         }
     }
     
-}
+//}
